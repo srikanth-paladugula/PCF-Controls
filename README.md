@@ -1,2 +1,4 @@
-# PCF-Components
-Build Custom components using Power Apps Component Framework for Dynamics 365 apps.
+# PCF-Controls
+
+This repository contains the custom controls developed using Power Apps Component Framework for Dynamics 365.
+

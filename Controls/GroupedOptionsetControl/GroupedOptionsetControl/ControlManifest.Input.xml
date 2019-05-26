@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Hsl.PCFControls" constructor="GroupedOptionset" version="0.0.1" display-name-key="GroupedOptionset_Display_Key" description-key="GroupedOptionset_Desc_Key" control-type="standard" preview-image="preview.png">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="optionsetFieldControl" display-name-key="optionsetFieldControl_Display_Key" description-key="optionsetFieldControl_Desc_Key" of-type="OptionSet" usage="bound" required="true" />
+    <property name="groupingOptions" display-name-key="GroupingOptions_Display_Key" description-key="GroupingOptions_Desc_Key" of-type="SingleLine.TextArea" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/groupedoptionset.css" order="1" />
+      <css path="css/materialize.min.css" order="1" />
+      <resx path="strings/groupedoptionset.1033.resx" version="1.0.0" />
+      <img path="preview.png"/>
+    </resources>
+  </control>
+</manifest>

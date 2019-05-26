@@ -1,0 +1,12 @@
+.dropdown-content {
+    position: relative !important;
+    top: 0px !important;
+}
+
+.hide-caret {
+    display: none;
+}
+
+.show-caret {
+    display: block;
+}
