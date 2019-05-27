@@ -36,5 +36,5 @@ Prerequisites
 ```
 {"Automation":[606090000,606090001]," Food Service":[606090002,606090003,606090004,606090005],"Heavy Machinery":[606090006],"Industrial Storage":[606090007,606090008,606090009], "Material Handling":[606090010,606090011,606090012]}
 ```
-- Currently, the grouping options input property doesn't accept more than 100 characters even it is textarea/multiple field. I have already raised the issue in forum, meanwhile I have posted the workaround [here]().
+- Currently, the grouping options input property doesn't accept more than 100 characters even it is textarea/multiple field. I have already raised the issue in forum, meanwhile I have posted the workaround [here](https://powerusers.microsoft.com/t5/PowerApps-Component-Framework/Problem-with-maximum-length-of-Input-parameters-which-are-of/m-p/289788#M231).
 - After applying the workaround, save the changes and publish the customizations.
