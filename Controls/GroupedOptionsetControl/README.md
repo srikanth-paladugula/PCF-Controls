@@ -4,7 +4,7 @@ This control prolong the existing optionset contol in Dynamics 365 by adding the
 Note : Currently, this control only works for single select optionset control, will implement the same for multi-select in a while.
 
 # Control Preview :
-![](./GroupedOptionsetControl/preview.png)
+![preview](./GroupedOptionsetControl/preview.png)
 
 # Steps for build/run the control in Visual Studio Code :
 1. Clone the repo/ download the zip file.
@@ -17,13 +17,13 @@ Note : Currently, this control only works for single select optionset control, w
 Prerequisites
 - Microsoft Powerapps CLI, we can find the installation details [here](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/create-custom-controls-using-pcf#prerequisites-to-use-powerapps-cli).
 
-1.Create a new solution folder and open the Developer command prompt.
-2.Change the directory to the newly created folder in previous step.
-3.Run the command `pac solution init --publisherName someName --customizationPrefix someSolutionPrefix`.
-4.Run the command `pac solution add-reference --path provide path of control project folder where the pcf.proj is available`.
-5.Run the command `msbuild /t:restore`.
-6.Run the command `msbuild`.
-7.Will have the solution file in SolutionFolder/bin/debug folder.
+1. Create a new solution folder and open the Developer command prompt.
+2. Change the directory to the newly created folder in previous step.
+3. Run the command `pac solution init --publisherName someName --customizationPrefix someSolutionPrefix`.
+4. Run the command `pac solution add-reference --path provide path of control project folder where the pcf.proj is available`.
+5. Run the command `msbuild /t:restore`.
+6. Run the command `msbuild`.
+7. Will have the solution file in SolutionFolder/bin/debug folder.
 
 # Registering/configuring the control in Dynamics 365 :
 - Deploy the solution which we get in previous steps into Dynamics 365 instance.
