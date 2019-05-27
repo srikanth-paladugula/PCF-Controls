@@ -13,14 +13,14 @@
     <Managed>2</Managed>
     <Publisher>
       <!-- Unique Publisher Name of Cds Solution -->
-      <UniqueName>HitachiSolutions</UniqueName>
+      <UniqueName>HitachiSolution</UniqueName>
       <LocalizedNames>
         <!-- Localized Cds Publisher Name in language code-->
-        <LocalizedName description="HitachiSolutions" languagecode="1033" />
+        <LocalizedName description="HitachiSolution" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
         <!-- Description of Cds Publisher in language code -->
-        <Description description="HitachiSolutions" languagecode="1033" />
+        <Description description="HitachiSolution" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>

@@ -4,7 +4,7 @@
 
   <PropertyGroup>
     <Name>GroupedOptionsetSolution</Name>
-    <ProjectGuid>ae97bde1-16a2-4fb3-810b-079384f2c6a9</ProjectGuid>
+    <ProjectGuid>b3b991b6-7668-4ba7-8af0-3ce00035b26f</ProjectGuid>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
@@ -32,9 +32,9 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\GroupingOptionset.pcfproj">
+    <ProjectReference Include="..\GroupedOptionset.pcfproj">
       <Project>72d46ebd-0edc-4cb8-b649-79e6fe2d1407</Project>
-      <Name>GroupingOptionset</Name>
+      <Name>GroupedOptionset</Name>
       <Targets>Build</Targets>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <OutputItemType>Content</OutputItemType>
