@@ -10,7 +10,7 @@ Note : Currently, this control only works for single select optionset control, w
 1. Clone the repo/ download the zip file.
 2. Navigate to ./GroupedOptionsetControl/GroupedOptionsetControl folder.
 3. Copy the folder path and open it in visual studio code.
-4. Open terminal in vsc(ctrl+`), and run the command `npm install` to install the project dependencies.
+4. Open terminal in vsc(ctrl+\`), and run the command `npm install` to install the project dependencies.
 5. Now run the command `npm run start`.
 
 # Steps required to build the solution out of a control :
